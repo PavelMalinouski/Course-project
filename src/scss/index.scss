@@ -10,11 +10,17 @@
 @import "./var";
 @import "./mixins";
 @import "./header.scss";
+@import "./card.scss";
+@import "./image.scss";
 
-@font-face{
+
+
+@font-face {
     font-family: "RaleWay";
     src: url("../fonts/Raleway-VariableFont_wght.ttf")
 }
+
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css";
 
 .container {
     max-width: 1170px;
@@ -24,7 +30,7 @@
     z-index: 2;
 }
 
-.header{
+.header {
     background-image: url("../img/banner.png");
     background-repeat: no-repeat;
     background-position: center;
@@ -32,7 +38,8 @@
     position: relative;
     padding-bottom: 120px;
 }
-.header::before{
+
+.header::before {
     content: '';
     background-image: url("../img/banner-mask.png");
     background-repeat: no-repeat;
@@ -44,5 +51,15 @@
     display: block;
     width: 100%;
     height: 100%;
-    z-index:1;
+    z-index: 1;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 100px 0;
+}
+
+.image {
+    background-color: #ffffff;
+    padding: 100px 0;
 }

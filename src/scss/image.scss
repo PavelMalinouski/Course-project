@@ -1,0 +1,104 @@
+.image-wrap {
+    display: flex;
+}
+
+.img-inner {
+    width: 379px;
+    height: 340px;
+    border: 2px solid #fff;
+    overflow: hidden;
+    background-image: url("../img/flat_one.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.img-inner:before {
+    content: '';
+    background-color: hsla(0, 100%, 63%, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.img-inner:hover:before {
+    opacity: 1;
+}
+
+.img-inner:active:before {
+    background-color: hsl(0, 88%, 39%, 0.8);
+}
+
+.img-text-wrap {
+    position: relative;
+    z-index: 2;
+    opacity: 0;
+    transition: 0.5s;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+}
+
+.img-text-wrap:hover {
+    opacity: 1;
+}
+
+.img-text {
+    text-align: center;
+    align-content: center;
+    font-family: "RaleWay";
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    text-transform: capitalize;
+    line-height: 21px;
+}
+
+.img-title {
+    font-family: "RaleWay";
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-bottom: 21px;
+}
+
+.bg-two {
+    background-image: url("../img/flat_two.png");
+}
+
+.bg-three {
+    background-image: url("../img/flat_three.png");
+}
+
+.bg-four {
+    background-image: url("../img/flat_four.png");
+}
+
+.bg-five {
+    background-image: url("../img/flat_five.png");
+}
+
+.bg-six {
+    background-image: url("../img/flat_six.png");
+}
+
+.bg-seven {
+    background-image: url("../img/flat_seven.png");
+}
+
+.bg-eight {
+    background-image: url("../img/flat_eight.png");
+}

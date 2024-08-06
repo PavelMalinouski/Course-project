@@ -1,0 +1,54 @@
+.card-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -15px;
+}
+
+.card-wrap:not(:last-child) {
+    margin-bottom: 90px;
+}
+
+.card-inner {
+    text-align: center;
+    width: 370px;
+}
+
+.card-inner:not(:nth-child(2)) {
+    margin: 0 15px;
+}
+
+.card-img {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 29px;
+}
+
+.fa-regular {
+    font-size: 80px;
+    color: #FF4343
+}
+
+.fa-solid {
+    font-size: 80px;
+    color: #FF4343
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-family: "RaleWay";
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 72px;
+    color: #2D3033;
+}
+
+.card-text {
+    font-family: "RaleWay";
+    font-size: 18px;
+    font-weight: 400;
+    color: #6C7279;
+}
