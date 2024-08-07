@@ -1,0 +1,27 @@
+.copyright-content {
+    width: 370px;
+    text-align: center;
+    margin: auto;
+}
+
+.copyright-text {
+    text-transform: capitalize;
+    font-size: $fz_section_text;
+    font-weight: 400;
+    font-family: "Raleway";
+    color: $color_copyright_text;
+}
+
+.copyright-text span {
+    color: $color_bg;
+}
+
+@media (max-width:1024px) {
+    .copyright-content {
+        width: 314px;
+    }
+
+    .copyright-text {
+        font-size: $fz_section_text_adaptive;
+    }
+}

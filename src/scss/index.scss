@@ -12,6 +12,10 @@
 @import "./header.scss";
 @import "./card.scss";
 @import "./image.scss";
+@import "./copyright.scss";
+@import "./customers.scss";
+@import "./footer.scss";
+@import "./ready.scss";
 
 
 
@@ -62,4 +66,37 @@
 .image {
     background-color: #ffffff;
     padding: 100px 0;
+}
+
+.customers {
+    background-color: #fff;
+    padding: 100px 0;
+}
+
+.ready {
+    background-color: #fff;
+    padding: 100px 0;
+
+}
+
+.footer {
+    background-color: #353C65;
+    padding: 71px 0;
+}
+
+.copyright {
+    background-color: #2C3154;
+    padding: 24px 0;
+}
+
+@media (max-width:1024px) {
+    .container {
+        max-width: 1014px;
+    }
+}
+
+@media (max-width:320px) {
+    .container {
+        max-width: 310px;
+    }
 }

@@ -1,0 +1,120 @@
+.footer-wrap {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 -15px;
+}
+
+.location {
+    width: 370px;
+    margin: 0 15px;
+}
+
+.location-title {
+    text-transform: uppercase;
+    font-size: $fz_section_text;
+    font-weight: 700;
+    font-family: "RaleWay";
+    color: $color_bg;
+    line-height: 21px;
+    margin-bottom: 29px;
+}
+
+.location-adress {
+    font-size: $fz_section_text;
+    font-weight: 400;
+    font-family: "RaleWay";
+    color: $color_bg;
+    line-height: 21px;
+}
+
+.share {
+    width: 370px;
+    margin: 0 15px;
+}
+
+.share-title {
+    text-transform: uppercase;
+    font-size: $fz_section_text;
+    font-weight: 700;
+    font-family: "RaleWay";
+    color: $color_bg;
+    line-height: 21px;
+    margin-bottom: 49px;
+}
+
+.social-list-center {
+    justify-content: center;
+}
+
+.social-list-item-md:not(:last-child) {
+    margin-right: 27px;
+}
+
+.about {
+    width: 370px;
+    margin: 0 15px;
+}
+
+.about-title {
+    text-transform: uppercase;
+    font-size: $fz_section_text;
+    font-weight: 700;
+    font-family: "RaleWay";
+    color: $color_bg;
+    line-height: 21px;
+    margin-bottom: 29px;
+}
+
+.about-text {
+    font-size: $fz_section_text;
+    font-weight: 400;
+    font-family: "RaleWay";
+    color: $color_bg;
+    text-transform: capitalize;
+}
+
+@media (max-width:1024px) {
+    .location {
+        width: 315px;
+    }
+
+    .share {
+        width: 315px;
+    }
+
+    .about {
+        width: 315px;
+    }
+
+    .location-title {
+        font-size: $fz_section_text_adaptive;
+        line-height: 16px;
+        margin-bottom: 17px;
+    }
+
+    .location-adress {
+        font-size: $fz_section_text_adaptive;
+        line-height: 16px;
+    }
+
+    .share-title {
+        font-size: $fz_section_text_adaptive;
+        line-height: 16px;
+        margin-bottom: 32px;
+    }
+
+    .social-list-item-md:not(:last-child) {
+        margin-right: 23px;
+    }
+
+    .about-title {
+        font-size: $fz_section_text_adaptive;
+        line-height: 16px;
+        margin-bottom: 16px;
+    }
+
+    .about-text {
+        font-size: $fz_section_text_adaptive;
+    }
+}

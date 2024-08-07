@@ -1,0 +1,60 @@
+.ready-wrap {
+    text-align: center;
+}
+
+.ready-title {
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 70px;
+    color: #000000;
+    text-transform: capitalize;
+    font-family: "Raleway";
+
+}
+
+.ready-content {
+    margin-bottom: 47px;
+}
+
+.ready-text {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Raleway";
+    color: #000000;
+    line-height: 21px;
+}
+
+.ready-button {
+    @include buttons;
+
+
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #FF4343;
+    }
+
+    25% {
+        background-color: #E71414;
+        transform: scale(1.1);
+
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    100% {
+        background-color: #FF4343;
+    }
+}
+
+@media (max-width:1024px) {
+    .ready-title {
+        font-size: 24px;
+        line-height: 60px;
+    }
+
+}

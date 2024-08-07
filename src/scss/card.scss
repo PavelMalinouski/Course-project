@@ -29,26 +29,26 @@
 
 .fa-regular {
     font-size: 80px;
-    color: #FF4343
+    color: $color_important
 }
 
 .fa-solid {
     font-size: 80px;
-    color: #FF4343
+    color: $color_important
 }
 
 .card-title {
     text-transform: uppercase;
     font-family: "RaleWay";
     font-weight: 900;
-    font-size: 24px;
+    font-size: $fz_section_title;
     line-height: 72px;
-    color: #2D3033;
+    color: $color_card_title;
 }
 
 .card-text {
     font-family: "RaleWay";
-    font-size: 18px;
+    font-size: $fz_section_text;
     font-weight: 400;
-    color: #6C7279;
+    color: $color_card-text;
 }
