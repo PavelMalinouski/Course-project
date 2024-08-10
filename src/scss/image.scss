@@ -1,11 +1,11 @@
 .image-wrap {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(305px, auto));
+    grid-gap: 2px;
 }
 
 .img-inner {
-    width: 379px;
     height: 340px;
-    border: 2px solid #fff;
     overflow: hidden;
     background-image: url("../img/flat_one.png");
     background-repeat: no-repeat;

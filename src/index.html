@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Course project</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./scss/index.scss">
 </head>
 
@@ -157,8 +158,6 @@
                     </a>
                 </div>
             </div>
-        </div>
-        <div class="image-wrap">
             <div class="img-inner bg-five">
                 <div class="img-text-wrap">
                     <a class="img-link" href="#">
@@ -323,6 +322,87 @@
             </div>
         </div>
     </section>
+    <section class="slider">
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <div class="img-slide-wrap">
+                        <img src="./img/slide_one.jpg" alt="#">
+                    </div>
+                    <div class="slide-content-wrap">
+                        <div class="slide-text-wrap">
+                            <p class="slide-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-author-wrap">
+                            <p class="slide-text-author">Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-slide-wrap">
+                        <img src="./img/slide_two.jpg" alt="#">
+                    </div>
+                    <div class="slide-content-wrap bg_color">
+                        <div class="slide-text-wrap">
+                            <p class="slide-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-author-wrap">
+                            <p class="slide-text-author">Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-slide-wrap">
+                        <img src="./img/slide_three.png" alt="#">
+                    </div>
+                    <div class="slide-content-wrap">
+                        <div class="slide-text-wrap">
+                            <p class="slide-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-author-wrap">
+                            <p class="slide-text-author">Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-slide-wrap">
+                        <img src="./img/slide_four.jpg" alt="#">
+                    </div>
+                    <div class="slide-content-wrap bg_color">
+                        <div class="slide-text-wrap">
+                            <p class="slide-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-author-wrap">
+                            <p class="slide-text-author">Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="img-slide-wrap">
+                        <img src="./img/slide_five.jpg" alt="#">
+                    </div>
+                    <div class="slide-content-wrap">
+                        <div class="slide-text-wrap">
+                            <p class="slide-text">“Integer posuere erat a ante venenatis dapibus posuere velit aliquet.
+                                Donec sed odio dui. Aenean eu leo quam...”</p>
+                        </div>
+                        <div class="slide-author-wrap">
+                            <p class="slide-text-author">Susan Sims, Interaction Designer at XYZ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
     <section class="ready">
         <div class="container">
             <div class="ready-wrap">
@@ -384,6 +464,8 @@
             </div>
         </div>
     </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </body>
 
 </html>

@@ -16,12 +16,19 @@
 @import "./customers.scss";
 @import "./footer.scss";
 @import "./ready.scss";
+@import "./slider.scss";
+
 
 
 
 @font-face {
     font-family: "RaleWay";
     src: url("../fonts/Raleway-VariableFont_wght.ttf")
+}
+
+@font-face {
+    font-family: "CardoItalic";
+    src: url("../fonts/Cardo-Italic.ttf")
 }
 
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css";
@@ -87,6 +94,10 @@
 .copyright {
     background-color: #2C3154;
     padding: 24px 0;
+}
+
+.slider {
+    padding: 100px 0;
 }
 
 @media (max-width:1024px) {
