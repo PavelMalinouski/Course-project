@@ -4,10 +4,12 @@
     align-items: center;
     border-bottom: 1px solid #BABBC5;
     margin-bottom: 130px;
+    flex-wrap: wrap;
 }
 
 .header-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .header-list-item a:hover {
@@ -45,7 +47,7 @@
 }
 
 .header-content-text {
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 
 .text {
@@ -58,4 +60,107 @@
 
 .header-content-button {
     @include buttons;
+}
+
+.burger {
+    display: none;
+}
+
+@media (max-width:320px) {
+    .main-title {
+        font-size: 36px;
+    }
+
+    .header-content-text {
+        width: 280px;
+    }
+
+    .text {
+        padding: 0;
+        font-size: 14px;
+    }
+
+    .header-content-button {
+        width: 280px;
+    }
+
+    .img-active {
+        width: 67.78px;
+    }
+
+    .img-box {
+        width: 34px;
+    }
+
+    .burger {
+        display: block;
+        width: 55px;
+        text-align: center;
+        padding: 19px 0;
+        margin-left: auto;
+        position: relative;
+    }
+
+    .fa-solid.fa-bars {
+        font-size: 24px;
+        color: #fff;
+        transition: 0.5s;
+    }
+
+    .fa-solid.fa-bars:active {
+        font-size: 24px;
+        color: #E71414;
+    }
+
+    .header-list {
+        opacity: 0;
+        position: absolute;
+        top: 147%;
+        left: 0;
+        width: 100%;
+        z-index: -1;
+        display: block;
+    }
+
+    .header-logo {
+        position: relative;
+        display: block;
+        border-bottom: none;
+        margin-bottom: 50px;
+    }
+
+    .header-active-box {
+        position: absolute;
+        top: 21.39px;
+        left: 0px;
+    }
+
+    .header-list-item a {
+        padding: 26px 0;
+        border-bottom: none;
+    }
+
+    .header-list-item a:hover {
+        border-bottom: none;
+    }
+
+    .header-list-item a:active {
+        border-bottom: none;
+    }
+
+    .header-content {
+        transition: 1s;
+        position: relative;
+    }
+
+    .active {
+        opacity: 1;
+        z-index: 1;
+        transition: 2s;
+    }
+
+    .hidden {
+        opacity: 0;
+        z-index: -1;
+    }
 }

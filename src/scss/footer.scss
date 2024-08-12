@@ -3,6 +3,7 @@
     justify-content: space-between;
     text-align: center;
     margin: 0 -15px;
+    flex-wrap: wrap;
 }
 
 .location {
@@ -116,5 +117,74 @@
 
     .about-text {
         font-size: $fz_section_text_adaptive;
+    }
+}
+
+@media (max-width:320px) {
+    .footer-wrap {
+        display: block;
+        width: 280px;
+        margin: auto;
+    }
+
+    .location {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 70px;
+    }
+
+    .location-title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 34px;
+    }
+
+    .location-adress {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .share {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 59.05px;
+    }
+
+    .share-title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 37px;
+    }
+
+    .social-list-center {
+        justify-content: center;
+    }
+
+    .social-list-item-md:not(:last-child) {
+        margin-right: 27px;
+    }
+
+    .about {
+        width: 100%;
+        margin: 0;
+    }
+
+    .about-title {
+        font-size: 14px;
+        line-height: 16px;
+        margin-bottom: 38.71px;
+    }
+
+    .about-text {
+        font-size: 14px;
+    }
+
+    .social-list-item-sm {
+        width: 33px;
+        height: 33px;
+    }
+
+    .social-list-item-sm:not(:last-child) {
+        margin-right: 16.77px;
     }
 }

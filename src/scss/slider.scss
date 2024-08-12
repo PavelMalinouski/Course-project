@@ -82,3 +82,53 @@
 .bg_color {
     background-color: coral;
 }
+
+@media (max-width:320px) {
+    .swiper-slide {
+        display: block;
+    }
+
+    .slide-text-wrap {
+        width: 275px;
+        text-align: center;
+        padding: 30px 0;
+        margin: auto;
+    }
+
+    .slide-author-wrap {
+        width: 275px;
+        text-align: center;
+    }
+
+    .img-slide-wrap {
+        height: 212px;
+        width: 100%;
+    }
+
+    .slide-content-wrap {
+        width: 100%;
+        padding-bottom: 95px;
+    }
+
+    .slide-text {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .slide-text-author {
+        font-size: 12px;
+        line-height: 25px;
+    }
+
+    .swiper-horizontal>.swiper-pagination-bullets,
+    .swiper-pagination-bullets.swiper-pagination-horizontal,
+    .swiper-pagination-custom,
+    .swiper-pagination-fraction {
+        width: 130px;
+    }
+
+    .swiper-pagination-bullet {
+        width: 9.49px;
+        height: 9.49px;
+    }
+}

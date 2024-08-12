@@ -39,7 +39,7 @@
     background-color: hsl(0, 88%, 39%, 0.8);
 }
 
-.img-text-wrap {
+.img-content-wrap {
     position: relative;
     z-index: 2;
     opacity: 0;
@@ -50,13 +50,16 @@
     align-content: center;
 }
 
-.img-text-wrap:hover {
+.img-content-wrap:hover {
     opacity: 1;
 }
 
-.img-text {
+.img-text-wrap {
     text-align: center;
     align-content: center;
+}
+
+.img-text {
     font-family: "RaleWay";
     font-size: 18px;
     font-weight: 400;
@@ -73,13 +76,6 @@
     text-transform: uppercase;
     line-height: 60px;
     margin-bottom: 21px;
-}
-
-.img-link {
-    display: block;
-    width: 100%;
-    height: 100%;
-    align-content: center;
 }
 
 .bg-two {
@@ -108,4 +104,30 @@
 
 .bg-eight {
     background-image: url("../img/flat_eight.png");
+}
+
+@media (max-width:320px) {
+    .image-wrap {
+        grid-template-columns: repeat(auto-fit, minmax(150px, auto));
+    }
+
+    .img-inner {
+        height: 144px;
+    }
+
+    .img-inner:active:before {
+        opacity: 1;
+        background-color: hsla(0, 100%, 63%, 0.8);
+    }
+
+    .img-text {
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .img-title {
+        font-size: 18px;
+        line-height: 25px;
+        margin-bottom: 4.63px;
+    }
 }
