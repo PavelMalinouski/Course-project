@@ -53,6 +53,40 @@
     color: $color_card-text;
 }
 
+@media (max-width:1024px) {
+
+    .card-wrap:not(:last-child) {
+        margin-bottom: 50px;
+    }
+
+    .card-inner {
+        width: 315px;
+    }
+
+    .card-img {
+        width: 85px;
+        height: 85px;
+        margin-bottom: 25px;
+    }
+
+    .fa-regular {
+        font-size: 65px;
+    }
+
+    .fa-solid {
+        font-size: 65px;
+    }
+
+    .card-title {
+        font-size: 18px;
+        line-height: 61px;
+    }
+
+    .card-text {
+        font-size: 14px;
+    }
+}
+
 @media (max-width:320px) {
     .card-inner:not(:nth-child(2)) {
         margin: 0;

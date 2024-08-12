@@ -1,6 +1,7 @@
 .customers-wrap {
     display: flex;
     margin: 0 -15px;
+    flex-wrap: wrap;
 }
 
 .customers-inner {
@@ -33,6 +34,10 @@
     object-position: center;
 }
 
+.reviews-wrap {
+    margin-bottom: 38px;
+}
+
 .name {
     text-transform: capitalize;
     font-size: $fz_section_title;
@@ -58,7 +63,6 @@
     font-weight: 400;
     font-family: "RaleWay";
     color: $color_card-text;
-    margin-bottom: 38px;
 }
 
 .social-list {
@@ -120,11 +124,13 @@
 
     .name {
         font-size: $fz_section_title_adaptive;
+        line-height: 25px;
     }
 
     .features {
         font-size: 14px;
         margin-bottom: 23px;
+        line-height: 16px;
     }
 
     .desc {
@@ -140,8 +146,12 @@
         font-size: $fz_social_adaptive;
     }
 
-    .desc {
+    .reviews-wrap {
         margin-bottom: 39px;
+    }
+
+    .customers-inner:not(:first-child) {
+        margin-left: 25px;
     }
 }
 
@@ -185,6 +195,9 @@
 
     .desc {
         font-size: $fz_section_text_adaptive;
+    }
+
+    .reviews-wrap {
         margin-bottom: 55px;
     }
 

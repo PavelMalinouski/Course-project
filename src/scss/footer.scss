@@ -31,7 +31,6 @@
 
 .share {
     width: 370px;
-    margin: 0 15px;
 }
 
 .share-title {
@@ -179,12 +178,12 @@
         font-size: 14px;
     }
 
-    .social-list-item-sm {
+    .social-list-item-md {
         width: 33px;
         height: 33px;
     }
 
-    .social-list-item-sm:not(:last-child) {
+    .social-list-item-md:not(:last-child) {
         margin-right: 16.77px;
     }
 }

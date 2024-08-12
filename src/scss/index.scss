@@ -6,7 +6,6 @@
     list-style: none;
 }
 
-@import "./cdn";
 @import "./var";
 @import "./mixins";
 @import "./header.scss";
@@ -34,7 +33,7 @@
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css";
 
 .container {
-    max-width: 1170px;
+    max-width: 1200px;
     padding: 0 15px;
     margin: auto;
     position: relative;
@@ -72,7 +71,6 @@
 
 .image {
     background-color: #ffffff;
-    padding: 100px 0;
 }
 
 .customers {
@@ -94,10 +92,6 @@
 .copyright {
     background-color: #2C3154;
     padding: 24px 0;
-}
-
-.slider {
-    padding: 100px 0;
 }
 
 @media (max-width:1024px) {
